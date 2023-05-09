@@ -1,0 +1,19 @@
+services:
+  database:
+    image: mariadb:10.6
+    ports:
+      - "5505:3306"
+    env_file:
+      - config.env
+    volumes:
+      - type: volume
+        source: app-db
+        target: /var/lib/mysql
+    networks:
+      - backend
+
+volumes:
+  app-db:
+
+networks:
+  backend:

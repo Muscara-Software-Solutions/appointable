@@ -1,0 +1,20 @@
+{
+  "name": "appointable",
+  "version": "1.0.0",
+  "description": "The ultimate student to professor scheduling tool tailored for higher education",
+  "main": "src/index.js",
+  "scripts": {
+    "db:start": "sudo docker compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muscara-Software-Solutions/appointable.git"
+  },
+  "keywords": [],
+  "author": "Muscara Software Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muscara-Software-Solutions/appointable/issues"
+  },
+  "homepage": "https://github.com/Muscara-Software-Solutions/appointable#readme"
+}
