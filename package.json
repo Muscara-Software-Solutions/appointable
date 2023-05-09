@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Muscara-Software-Solutions/appointable/issues"
   },
-  "homepage": "https://github.com/Muscara-Software-Solutions/appointable#readme"
+  "homepage": "https://github.com/Muscara-Software-Solutions/appointable#readme",
+  "devDependencies": {
+    "prisma": "^4.14.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.0"
+  }
 }
